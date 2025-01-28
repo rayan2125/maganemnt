@@ -1,8 +1,9 @@
+import Sidebar from "../sidebar/page"
 
 
 const Dashboard :React.FC=()=>{
 return(
-    <h1>hello world</h1>
+   <Sidebar/>
 )
 }
 export default Dashboard
